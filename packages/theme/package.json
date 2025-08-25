@@ -1,0 +1,25 @@
+{
+  "name": "@stwill/theme",
+  "description": "Include Bootstrap's source Sass and individual JavaScript plugins with Vite.",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "twbs/examples",
+  "license": "MIT",
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
+  "scripts": {
+    "start": "vite",
+    "css-compile": "sass --style=expanded --source-map --embed-sources --no-error-css src/scss/:dist/css/",
+    "build": "vite build",
+    "test": "npm run build"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.7"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2",
+    "vite": "^7.0.0"
+  }
+}

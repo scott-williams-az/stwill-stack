@@ -1,0 +1,20 @@
+{
+  "editor.rulers": [80],
+  "editor.wordWrapColumn": 80,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000000",
+    "titleBar.activeBackground": "#23515e",
+    "titleBar.activeForeground": "#e3fb47",
+    "titleBar.inactiveBackground": "#23515e",
+    "titleBar.inactiveForeground": "#D0D0D0"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
