@@ -1,0 +1,16 @@
+{
+  "name": "stwill",
+  "version": "0.0.0",
+  "license": "MIT",
+  "volta": {
+    "node": "20.15.1",
+    "yarn": "4.4.0"
+  },
+  "packageManager": "yarn@4.4.0",
+  "private": true,
+  "devDependencies": {
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
