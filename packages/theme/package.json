@@ -5,13 +5,12 @@
   "private": true,
   "repository": "twbs/examples",
   "license": "MIT",
-  "stackblitz": {
-    "startCommand": "npm start"
-  },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
-    "test": "npm run build"
+    "build": "yarn run build:dev && yarn run build:prod",
+    "build:dev": "vite build --mode dev",
+    "build:prod": "vite build --mode prod",
+    "test": "yarn run build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -20,5 +19,8 @@
   "devDependencies": {
     "sass": "^1.89.2",
     "vite": "^7.0.0"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }
