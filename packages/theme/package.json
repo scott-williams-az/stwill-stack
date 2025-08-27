@@ -10,7 +10,6 @@
   },
   "scripts": {
     "start": "vite",
-    "css-compile": "sass --style=expanded --source-map --embed-sources --no-error-css src/scss/:dist/css/",
     "build": "vite build",
     "test": "npm run build"
   },
